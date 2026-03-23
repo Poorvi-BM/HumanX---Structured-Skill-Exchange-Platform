@@ -1,0 +1,44 @@
+.rate-btn {
+  margin-top: 10px;
+  background: transparent;
+  border: 1px solid #00f5d4;
+  color: #00f5d4;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.rate-btn:hover {
+  background: #00f5d4;
+  color: #000;
+}
+
+.rating-box {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #0b1220;
+  border: 1px solid #00f5d4;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #00f5d4;
+  z-index: 1000;
+  width: 300px;
+}
+
+.rating-box textarea {
+  width: 100%;
+  margin-top: 10px;
+  padding: 8px;
+  background: #0f172a;
+  color: white;
+  border: 1px solid #1e293b;
+  border-radius: 6px;
+}
+
+.rating-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
